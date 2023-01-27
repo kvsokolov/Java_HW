@@ -103,7 +103,6 @@ public class Main {
             strSB7.append("=");
         }
         stop = System.currentTimeMillis();
-
         System.out.printf("Время выполнения средством String: %d мс, методом StringBuilder: %d мс, " +
                 "что меньше на %d мс!\n", strTime, stop - start, strTime - (stop - start));
 
